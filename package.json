@@ -1,5 +1,5 @@
 {
-  "name": "react-input-hook",
+  "name": "react-using-input",
   "version": "1.0.0",
   "description": "A custom hook for binding input value and validating.",
   "main": "./libs/index.js",
