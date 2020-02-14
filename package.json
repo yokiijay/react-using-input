@@ -1,6 +1,6 @@
 {
   "name": "react-using-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom hook for binding input value and validating.",
   "main": "./libs/useInput.js",
   "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
