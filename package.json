@@ -2,10 +2,21 @@
   "name": "react-using-input",
   "version": "1.0.1",
   "description": "A custom hook for binding input value and validating.",
-  "main": "./libs/useInput.js",
+  "main": "./dist/main.js",
   "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
   "dependencies": {
     "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }

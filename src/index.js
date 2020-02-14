@@ -1,5 +1,7 @@
 import useInput from './useInput'
 
-export {
+const module = {
   useInput
 }
+
+export default module
