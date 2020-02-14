@@ -1,0 +1,11 @@
+{
+  "name": "react-input-hook",
+  "version": "1.0.0",
+  "description": "A custom hook for binding input value and validating.",
+  "main": "./libs/index.js",
+  "author": "Yokiijay <yokiijay@gmail.com> (https://yokiijay.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
