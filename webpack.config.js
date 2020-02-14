@@ -1,5 +1,6 @@
 const path = require('path')
 const pkg = require('./package.json')
+const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
   entry: './src/index.js',
@@ -20,12 +21,5 @@ module.exports = {
       }
     ]
   },
-  // externals: {
-  //   react: 'react'
-  // },
-  // resolve: {
-  //   alias: {
-  //     react: path.resolve('./node_modules/react')
-  //   }
-  // }
+  externals: [nodeExternals()],
 }
