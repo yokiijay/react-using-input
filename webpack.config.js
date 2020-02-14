@@ -7,25 +7,25 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'main.js',
     library: pkg.name,
-    libraryTarget: 'commonjs2',
-    // libraryExport: 'default',
-    globalObject: 'this'
+    libraryTarget: 'umd',
+    // libraryExport: 'default',  // enable if export only the default one
+    globalObject: 'typeof self !== \'undefined\' ? self : this'
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          } 
-        }
+        loader: 'babel-loader'
       }
     ]
   },
   externals: {
     react: 'react'
+  },
+  resolve: {
+    alias: {
+      react: path.resolve('./node_modules/react')
+    }
   }
 }
