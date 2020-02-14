@@ -1,7 +1,8 @@
-import useInput from './useInput'
+// import useInput from './useInput'
+// import test from './test'
 
-const module = {
-  useInput
-}
+// export default { useInput, test }
 
-export default module
+export { default as useInput } from './useInput'
+export { default as test } from './test'
+export { default as Hello } from './Hello'
