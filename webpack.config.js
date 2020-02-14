@@ -20,12 +20,12 @@ module.exports = {
       }
     ]
   },
-  externals: {
-    react: 'react'
-  },
-  resolve: {
-    alias: {
-      react: path.resolve('./node_modules/react')
-    }
-  }
+  // externals: {
+  //   react: 'react'
+  // },
+  // resolve: {
+  //   alias: {
+  //     react: path.resolve('./node_modules/react')
+  //   }
+  // }
 }
