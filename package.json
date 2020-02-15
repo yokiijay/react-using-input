@@ -9,6 +9,20 @@
     "build": "webpack --mode=production",
     "babel": "babel src --out-file lib/main.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yokiijay/react-using-input"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "redux",
+    "react hook input",
+    "hook",
+    "form",
+    "hooks",
+    "react hooks"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
