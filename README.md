@@ -1,9 +1,11 @@
 # React hook for binding input values and validating onchang.
 
+<img width="350" src="https://i.postimg.cc/s2Gp6PQq/demopresent.gif"/>
+
 ## Get Started by 3 steps
 1. Attach Ref
-2. useInput(someRef)
-3. use it
+2. const data = useInput(thatRef)
+3. use it by `data.get()` `data.set()` `data.onChange()` `data.validation()`
 
 ```js
 import { useRef } from 'react'
